@@ -1,6 +1,6 @@
 # Requisitos Funcionais (RF)
 
-A Tabela 4 apresenta os Requisitos Funcionais elicitados para o sistema Games Database.
+A Tabela apresenta os Requisitos Funcionais elicitados para o sistema Games Database.
 
 | ID | Requisito Funcional | Descrição | Prioridade |
 |----|----------------------|-----------|------------|
