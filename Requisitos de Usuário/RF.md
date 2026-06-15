@@ -12,8 +12,7 @@ A Tabela apresenta os Requisitos Funcionais elicitados para o sistema Games Data
 | RF06 | Fórum de Discussão | O sistema deve permitir que usuários acessem uma área de fórum para discussões. | Alta |
 | RF07 | Criar Post no Fórum | O sistema deve permitir que usuários criem postagens no fórum. | Alta |
 | RF08 | Visualizar Postagens | O sistema deve permitir visualizar postagens feitas por outros usuários. | Alta |
-| RF09 | Sistema CRUD de Jogos (Futuro) | O sistema deve permitir cadastrar, editar, excluir e visualizar jogos. | Baixa |
-| RF10 | Interface Interativa | O sistema deve atualizar conteúdos dinamicamente sem recarregar a página (quando possível). | Média |
+| RF09 | Interface Interativa | O sistema deve atualizar conteúdos dinamicamente sem recarregar a página (quando possível). | Média |
 
 <div align="center">
 Tabela 4: Requisitos Funcionais do Games Database
