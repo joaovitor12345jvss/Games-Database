@@ -1,17 +1,94 @@
-# Games Database
+# 🎮 Games Database
 
-Este projeto consiste em uma aplicação web front-end desenvolvida com o objetivo de criar uma base de dados interativa de jogos. A proposta é oferecer uma interface moderna e intuitiva onde os usuários possam explorar jogos populares, pesquisar títulos e navegar por diferentes gêneros.
+## 📖 Sobre o Projeto
 
-A aplicação apresenta uma seção de destaque com jogos populares, incluindo uma barra de busca para facilitar a localização de títulos específicos. Também conta com filtros por categorias, permitindo ao usuário explorar jogos de acordo com seus gêneros preferidos, como ação, aventura, RPG, estratégia, entre outros.
+O **Games Database** é uma aplicação web front-end desenvolvida com o objetivo de criar uma plataforma interativa para exploração de jogos digitais. O projeto foi criado com foco em oferecer uma interface moderna, intuitiva e responsiva, permitindo que os usuários naveguem por diferentes títulos e gêneros de jogos de forma prática e visualmente agradável.
 
-Além disso, o projeto inclui uma área de fórum voltada para interação entre os usuários, onde é possível compartilhar opiniões, discutir jogos e incentivar a participação da comunidade.
-
-O design foi desenvolvido com foco em responsividade e experiência do usuário, utilizando HTML, CSS e JavaScript para criar uma interface agradável e funcional.
+A aplicação apresenta uma seleção de jogos populares, sistema de pesquisa, categorização por gêneros e uma proposta de interação entre usuários através de uma área de fórum.
 
 ---
 
-## Futuras melhorias
+## 🚀 Funcionalidades
 
-Este projeto ainda está em desenvolvimento e futuramente será implementado um sistema completo de **CRUD (Create, Read, Update, Delete)**, permitindo a manipulação dinâmica dos dados dos jogos e maior interatividade com o sistema.
+* 🔍 Pesquisa de jogos por nome
+* 🎮 Exibição de jogos populares
+* 📂 Filtros por categorias e gêneros
+* 💬 Área de fórum para interação entre usuários
+* 📱 Interface responsiva
+* 🎨 Design moderno e intuitivo
 
-## O projeto está sujeito a mudanças futuras
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **Git & GitHub**
+* **GitHub Pages**
+
+---
+
+## 🌐 Deploy do Projeto
+
+O projeto está hospedado utilizando o GitHub Pages e pode ser acessado através do link abaixo:
+
+🔗 https://joaovitor12345jvss.github.io/Games-Database/
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+Games-Database/
+│
+├── index.html
+├── style.css
+├── script.js
+├── imagens/
+│   ├── ...
+│
+└── README.md
+```
+
+---
+
+## 🎯 Objetivos do Projeto
+
+Este projeto foi desenvolvido com os seguintes objetivos:
+
+* Praticar desenvolvimento front-end
+* Aplicar conceitos de responsividade
+* Melhorar organização de interfaces web
+* Utilizar GitHub para versionamento e hospedagem
+* Criar uma experiência visual agradável para o usuário
+
+---
+
+## 📸 Interface
+
+O sistema apresenta:
+
+* Página inicial com jogos em destaque
+* Barra de pesquisa
+* Sistema de categorias
+* Cards interativos de jogos
+* Layout responsivo para diferentes dispositivos
+
+---
+
+## 👨‍💻 Autores
+
+Projeto desenvolvido por:
+
+**João Vitor Souza Santiago**
+**Abner Eduardo de Brito Torres**
+**Gabriel Mohamad**
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos e de estudo.
