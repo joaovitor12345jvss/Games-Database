@@ -1,0 +1,100 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GAMES DATABASE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <header class="main-header">
+            <div class="container">
+                <h1>GAMES DATABASE</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#jogos-populares">Populares</a></li>
+                        <li><a href="#generos">Generos/Categorias</a></li>
+                        <li><a href="#forum">Forum</a></li>
+                        <li id="auth-link-container"><a href="login.html" id="auth-link">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="jogos-populares" class="section-destaque">
+                <div class="container">
+                    <h2>Jogos Populares e em Destaque</h2>
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="Pesquisar jogos...">
+                        <button id="search-button">Buscar</button>
+                    </div>
+
+                    <div id="game-list" class="game-grid">
+                        <article class="game-card">
+                            <img src="Im" alt="Imagem">
+                            <h3>Nome do Jogo</h3>
+                            <p class="game-genre">Gênero</p>
+                            <a href="#" class="btn-details">Ver Detalhes (Sinopse, História, Gameplay)</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="generos" class="section-categorias">
+                <div class="container">
+                    <h2>Explorar por Gêneros</h2>
+                    <div class="genre-filters">
+                        <button class="filter-btn" data-genre="Ação">Ação</button>
+                        <button class="filter-btn" data-genre="Aventura">Aventura</button>
+                        <button class="filter-btn" data-genre="rpg">RPG</button>
+                        <button class="filter-btn" data-genre="Estratégia">Estratégia</button>
+                        <button class="filter-btn" data-genre="FPS">FPS</button>
+                        <button class="filter-btn" data-genre="Corrida">Corrida</button>
+                        <button class="filter-btn" data-genre="Luta">Luta</button>
+                        <button class="filter-btn" data-genre="Terror">Terror</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="forum" class="section-forum">
+                <div class="container">
+                    <h2>Fórum de Fãs</h2>
+                    <p>Compartilhe suas opiniões e interaja com outros fãs de jogos.</p>
+                    <div id="forum-posts">
+                        <div class="forum-post">
+                            <h4>Exemplo.</h4>
+                            <p>Ótima maneira de incentivar a comunicação e interação entre fãs de determinados jogos.
+                            </p>
+                            <span class="post-meta">Postado por Fã em 21/08/2025</span>
+                        </div>
+                    </div>
+                    <button class="btn-new-post">Criar Novo Post</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 GAMES DATABASE - Projeto Front End - UTFPR Cornélio Procópio.</p>
+                <p>Feito para estudo.</p>
+            </div>
+        </footer>
+
+        <div id="game-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <img id="modal-image" src="" alt="Capa do Jogo">
+                <h3 id="modal-title">Título do Jogo</h3>
+                <p><strong>Gênero:</strong> <span id="modal-genre"></span></p>
+                <p><strong>Palavras-chave:</strong> <span id="modal-keywords"></span></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+    </html>
+</DOCTYPE>
